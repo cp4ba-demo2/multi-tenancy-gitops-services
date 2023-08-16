@@ -10,5 +10,5 @@ spec:
   name: ibm-cp4a-operator
   installPlanApproval: Automatic
   source: ibm-cp4a-operator-catalog
-  startingCSV: ibm-cp4a-operator.v22.1
+  # startingCSV: ibm-cp4a-operator.v22.1
   sourceNamespace: openshift-marketplace
