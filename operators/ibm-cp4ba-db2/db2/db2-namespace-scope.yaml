@@ -4,4 +4,4 @@ metadata:
   name: namespace-scope
   namespace: openshift-operators
 data:
-  namespaces: 'ci'
+  namespaces: 'ibm-common-services'
