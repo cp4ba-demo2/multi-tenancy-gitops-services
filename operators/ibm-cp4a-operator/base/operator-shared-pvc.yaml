@@ -4,7 +4,8 @@ metadata:
   name: operator-shared-pvc
 spec:
   accessModes:
-    - ReadWriteOnce
+    # - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 1Gi

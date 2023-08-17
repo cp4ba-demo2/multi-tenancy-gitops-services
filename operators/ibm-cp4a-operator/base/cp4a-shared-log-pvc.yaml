@@ -4,7 +4,8 @@ metadata:
   name: cp4a-shared-log-pvc
 spec:
   accessModes:
-    - ReadWriteOnce
+    # - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 1Gi
