@@ -3,8 +3,7 @@ kind: Subscription
 metadata:
   name: ibm-cp4a-operator-catalog-subscription
 spec:
-  # channel: v21.1
-  channel: latest
+  channel: v21.1
   installPlanApproval: Automatic
   name: ibm-cp4a-operator
   source: ibm-operator-catalog
