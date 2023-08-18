@@ -1,4 +1,4 @@
 - op: replace
   path: /spec/channel
   # value: v21.2
-  value: v21.2
+  value: v23.1

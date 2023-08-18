@@ -5,7 +5,8 @@ ibm-cp4a-operator:
     ibmcp4a:
       name: ibm-cp4a
       subscription:
-        channel: v21.2
+        # channel: v21.2
+        channel: v23.1
         installPlanApproval: Automatic
         name: ibm-cp4a-operator
         source: ibm-operator-catalog
