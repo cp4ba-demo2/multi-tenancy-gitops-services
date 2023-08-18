@@ -60,43 +60,7 @@ spec:
     registryPoll:
       interval: 45m
 ---
-# # IBM Cloud Foundational Services 3.19.0
-#  apiVersion: operators.coreos.com/v1alpha1
-#  kind: CatalogSource
-#  metadata:
-#   name: opencloud-operators
-#   namespace: openshift-marketplace
-#   annotations:
-#     bedrock_catalogsource_priority: '1'
-#     argocd.argoproj.io/sync-wave: "210"
-#  spec:
-#   displayName: IBMCS Operators
-#   publisher: IBM
-#   sourceType: grpc
-#   image: icr.io/cpopen/ibm-common-service-catalog@sha256:87904dee339ee4bbcbdc07949abc8df82bf6d85706f90795e6dae5e45f876b19
-#   updateStrategy:
-#     registryPoll:
-#       interval: 45m
-# ---
-# # IBM Business Teams Service version 3.19.0
-#  apiVersion: operators.coreos.com/v1alpha1
-#  kind: CatalogSource
-#  metadata:
-#   name: bts-operator
-#   namespace: openshift-marketplace
-#   annotations:
-#     bedrock_catalogsource_priority: '1'
-#     argocd.argoproj.io/sync-wave: "210"
-#  spec:
-#   displayName: BTS Operator
-#   publisher: IBM
-#   sourceType: grpc
-#   image: icr.io/cpopen/ibm-bts-operator-catalog@sha256:68596113ad291b36b78d53207f73b53691f9f0154a21f38c717c08a0100deb9f
-#   updateStrategy:
-#     registryPoll:
-#       interval: 45m
----
-# IBM Cloud Foundational Services 3.23.0
+# IBM Cloud Foundational Services 3.19.0
  apiVersion: operators.coreos.com/v1alpha1
  kind: CatalogSource
  metadata:
@@ -109,13 +73,12 @@ spec:
   displayName: IBMCS Operators
   publisher: IBM
   sourceType: grpc
-  image: icr.io/cpopen/ibm-common-service-catalog@sha256:12744600eaa9d509ecca3d0a7d48f1fe022fade59eacd7c8f646c1d0f1e9dd64
+  image: icr.io/cpopen/ibm-common-service-catalog@sha256:87904dee339ee4bbcbdc07949abc8df82bf6d85706f90795e6dae5e45f876b19
   updateStrategy:
     registryPoll:
       interval: 45m
-  priority: 100    
 ---
-# IBM Business Teams Service version 3.23.0
+# IBM Business Teams Service version 3.19.0
  apiVersion: operators.coreos.com/v1alpha1
  kind: CatalogSource
  metadata:
@@ -128,7 +91,7 @@ spec:
   displayName: BTS Operator
   publisher: IBM
   sourceType: grpc
-  image: icr.io/cpopen/ibm-bts-operator-catalog@sha256:1cbb05e621a8b0e6eacb720c823814ce4d9d178c9aad98252599e9972f911671
+  image: icr.io/cpopen/ibm-bts-operator-catalog@sha256:68596113ad291b36b78d53207f73b53691f9f0154a21f38c717c08a0100deb9f
   updateStrategy:
     registryPoll:
       interval: 45m
