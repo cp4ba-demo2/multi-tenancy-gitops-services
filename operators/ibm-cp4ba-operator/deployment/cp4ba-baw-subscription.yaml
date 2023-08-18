@@ -6,8 +6,7 @@ metadata:
   name: ibm-cp4a-operator-catalog-subscription
   namespace: cp4ba
 spec:
-  # channel: v22.2
-  channel: v23.1
+  channel: v22.2
   name: ibm-cp4a-operator
   installPlanApproval: Automatic
   source: ibm-cp4a-operator-catalog
